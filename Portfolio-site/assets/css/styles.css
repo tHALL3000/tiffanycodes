@@ -1,0 +1,112 @@
+@import url(/assets/css/about/about-me.css);
+@import url(/assets/css/contact/contact.css);
+@import url(/assets/css/experience/experience.css);
+@import url(/assets/css/footer/footer.css);
+@import url(/assets/css/header/header.css);
+@import url(/assets/css/hero/hero.css);
+@import url(/assets/css/projects/projects.css);
+
+
+/*-------------
+ 	General
+-------------*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	font: normal 16px sans-serif;
+	color: #555;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+
+	opacity: 0.9;
+}
+
+a:hover{
+	opacity: 1;
+}
+
+a.btn{
+	color: #fff;
+	border-radius: 4px;
+	text-transform: uppercase;
+	background-color: #9600ff;
+	font-weight: 800;
+	text-align: center;
+}
+
+hr{
+	width: 150px;
+	height: 2px;
+	background-color: #9600ff;
+	border: 0;
+	margin-bottom: 80px;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	padding: 125px 100px;
+}
+
+@media (max-width: 1000px){
+
+	section{
+		padding: 100px 50px;
+	}
+
+}
+
+@media (max-width: 600px){
+
+	section{
+		padding: 80px 30px;
+	}
+
+}
+
+section h3.title{
+	color: #656565;
+	text-transform: capitalize; 
+	font: bold 32px 'Open Sans', sans-serif;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+section h2.title{
+	color: #656565;
+	text-transform: capitalize; 
+	font: bold 48px 'Open Sans', sans-serif;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+section p{
+	max-width: 800px;
+	text-align: center;
+	margin-bottom: 35px;
+	padding: 0 20px;
+	line-height: 2;
+}
+
+ul.grid{
+	 width: 60%; 
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
