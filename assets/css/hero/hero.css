@@ -31,12 +31,19 @@
 
 .hero h1{
 	font: bold 60px 'Open Sans', sans-serif;
-	margin-bottom: 15px;
+	margin-bottom: 0px;
+border: 2px solid black;
+	line-height: 60px;
+	
+	
+	
 }
 
 .hero h3{
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
+	margin-top: 20px;
+	bac
 }
 
 .hero a.btn{
