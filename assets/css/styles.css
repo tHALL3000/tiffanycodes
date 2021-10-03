@@ -111,3 +111,50 @@ ul.grid{
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
+.cards {
+	width: 920px;
+	margin: 0px auto;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+.cards__title {
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.15;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 16px;
+}
+
+.cards__item {
+	width: 240px;
+	margin-right: 50px;
+	text-align: center;
+	padding-top: 60px;
+}
+
+/* .cards__item:nth-last-of-type(3n) {
+	margin-right: 0;
+} */
+
+.cards__image {
+    margin:0 40px 43px;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    
+}
+
+.cards__description {
+    padding-top: 16px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: normal;
+    margin:0;
+    padding: 0;
+}
