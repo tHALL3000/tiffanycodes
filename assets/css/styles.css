@@ -132,9 +132,12 @@ ul.grid{
 
 .cards__item {
 	width: 240px;
-	margin-right: 50px;
+	/* margin-right: 50px; */
 	text-align: center;
 	padding-top: 60px;
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: 50px;
 }
 
 /* .cards__item:nth-last-of-type(3n) {
