@@ -120,6 +120,13 @@ ul.grid{
 	list-style: none;
 	padding: 0;
 }
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
 .cards__title {
     text-align: center;
