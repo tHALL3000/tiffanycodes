@@ -28,6 +28,7 @@
 	.about-me .grid li.small,
 	.about-me .grid li.large{
 		flex-basis: 100%;
+		width:100%;
 	}
 
 }

@@ -105,7 +105,7 @@ section p{
 }
 
 ul.grid{
-	 width: 60%; 
+	 width: 100%; 
 
 	display: flex;
 	flex-wrap: wrap;
@@ -123,7 +123,8 @@ ul.grid{
 @media screen and (max-width: 600px) {
   .cards {
     width: 100%;
-    display: block;
+	float: left;
+    display: column;
     margin-bottom: 20px;
   }
 }
