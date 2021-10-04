@@ -1,11 +1,11 @@
-@import url(/assets/css/about/about-me.css);
-@import url(/assets/css/contact/contact.css);
-@import url(/assets/css/experience/experience.css);
-@import url(/assets/css/footer/footer.css);
-@import url(/assets/css/header/header.css);
-@import url(/assets/css/hero/hero.css);
-@import url(/assets/css/neon/neon.css);
-@import url(/assets/css/projects/projects.css);
+@import url(./assets/css/about/about-me.css);
+@import url(./assets/css/contact/contact.css);
+@import url(./assets/css/experience/experience.css);
+@import url(./assets/css/footer/footer.css);
+@import url(./assets/css/header/header.css);
+@import url(./assets/css/hero/hero.css);
+@import url(./assets/css/neon/neon.css);
+@import url(./assets/css/projects/projects.css);
 
 
 /*-------------
