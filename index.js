@@ -27,3 +27,7 @@ function topFunction() {
 	document.body.scrollTop = 0;
 	document.documentElement.scrollTop = 0;
 }
+
+if (window.navigator.userAgent.indexOf("Mobile") > -1) {
+	$(".myBtn").hide();
+}
