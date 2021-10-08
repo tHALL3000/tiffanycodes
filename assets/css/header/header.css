@@ -18,6 +18,14 @@ header h2{
 
 header nav{
 	display: flex;
+	flex-wrap: wrap;
+}
+@media screen and (max-width: 775px) {
+  header nav {
+    width: 100%;
+	justify-content: center;
+
+  }
 }
 
 header nav li{
