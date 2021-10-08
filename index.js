@@ -29,5 +29,5 @@ function topFunction() {
 }
 
 if (window.navigator.userAgent.indexOf("Mobile") > -1) {
-	$(".myBtn").hide();
+	$("#myBtn").hide();
 }
