@@ -1,6 +1,11 @@
 
 .experience{
 	background-color: #BEBEBE;
+	
+}
+
+.experience-decription{
+	list-style-type: disc;
 }
 
 .experience .quote{

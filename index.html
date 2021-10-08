@@ -10,23 +10,25 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="index.js"></script>
 
 </head>
 
 <body>
 
 	<header>
-		<h2><a href="#">Website Logo</a></h2>
+		<h2><a href="#">TiffanyCodes.com</a></h2>
 		<nav>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Projects</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><a href="#hero">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#contact">Contact</a></li>
 		</nav>
 	</header>
 
 
-	<section class="hero">
+	<section class="hero" id="hero">
 		<div class="background-image" style="background-image: url(./assets/img/hero.jpg);"></div>
 		<div class="text-effect">
   <h1 class="neon" data-text="Tiffany Hall" contenteditable>Tiffany Hall</h1>
@@ -34,13 +36,13 @@
   <div class="spotlight"></div>
 </div>
 		<h3>Full Stack Web Developer</h3>
-		<a href="#" class="btn">Contact me</a>
+		<a href="mailto:tiffanyhall.co@gmail.com" class="btn">Contact me</a>
 	</section>
 
-
-	<section class="about-me">
+<button class="myBtn" onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<section class="about-me" id="about">
 		<h2 class="title">A bit about myself</h2>
-		<p>Hello! I very much enjoy living in Colorado. If i am sitting, i am knitting, unless im coding. Thankfully i have a CodeCat to keep me company. His name is Sharkbait-oo-ha-ha. This is only a sample of some of my knitting projects. </p>
+		<p>Hello! I very much enjoy living in Colorado. I love to knit anywhere and everywhere. If I am sitting, I am knitting... unless I'm coding! Thankfully, I have a codeCat to keep me company. Having a successfull career in special education and educational technology, I am beyond excited to make the change to full time program development. I love the change of solving complex problems, working in a team, and being creative. </p>
 		<hr>
 
 		<ul class="grid">
@@ -52,9 +54,9 @@
 	</section>
 	
 
-	<section class="projects">
+	<section class="projects" id="projects">
 		<h2 class="title">Projects Gallery</h2>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id felis et ipsum bibendum ultrices. Morbi vitae pulvinar velit. Sed aliquam dictum sapien, id sagittis augue malesuada eu.</p>
+		
 		<hr>
 
 		<ul class="cards">
@@ -67,14 +69,13 @@
                         <li class="cards__item">
                             <img src="assets/img/Travel.jpg" alt="Roadtrip Journal" class="cards__image" />
                             <h3 class="cards__title">Portland to Portland</h3>
-                            <p class="cards__description">Improving your ability to remember key bits of information helps to connect
-                                different parts of the brain.
+                            <p class="cards__description"> The project was focused on improving the user experience through the lens of responsive coding. The design brief was delivered in Figma thus allowing us to work collabortatively in our Pair-Programming sessions. Using media queries, css grid, image compression, and flexbox to create a beautiful, pixel-perfect, site wheter the user is viewing on the standard computer monitor or the smallest of phone screens.
                             </p>
                         </li>
                         <li class="cards__item">
                             <img src="assets/img/Around-the-World.png" alt="Phase 1 Around-the-World" class="cards__image" />
                             <h3 class="cards__title">Around the world (phase 1)</h3>
-                            <p class="cards__description">Intro to JavaScript. Incorperates the use of my own chosen images, which vary in size but must fit in grid. Edit form uses JS to replace the name and job from the form fields. Media query again for responsive design. Also used the :hover and :active features on classes.
+                            <p class="cards__description">JavaScript. Incorperates the use of my own chosen images, which vary in size but must fit in grid. User is able to change the profile name, information, and profile image. Using REST API and backend server support, the user is also able to upload their own photo the site and like photos left by others! Media query again for responsive design. Also used the :hover and :active features on classes.
                             </p>
                         </li>
 		</ul>
@@ -82,13 +83,13 @@
 	</section>
 
 
-	<section class="experience">
+	<section class="experience" id="experience">
 		<h2 class="title">Relevant Experience</h2>
 
 
 <p class="quote">
 	“Tiffany is an exceptional software developer. Her ability to learn and retain information has during her studies at Practicum has prepared her to solve any problem that comes her way. Although Tiffany is a fast learner, she is very careful and cautious about her work. She has a knack for pixel-perfect UI design, and always gives 100% when it comes to completing tasks. She's been an absolute pleasure to work with and always brings the best out in the people she surrounds herself with. Tiffany would be an asset to have on any team. ”</p>
-	<p class="author">— Max Jacobson, Tutor at Practicum</p>
+		<p class="author">— Max Jacobson, Tutor at Practicum</p>
 <hr>
 	<p class="quote">
 	“I've been fortunate to work with Tiffany as my pair programming partner for our sprints during the Practicum Web Developer curriculum. Our projects primarily consisted of HTML, CSS and JavaScript (including React). It's been an absolute pleasure working with her as our pairing involved not just writing code, but problem solving as we bounced ideas off each other. She's super enthusiastic and brings strong positive energy to the team (definitely helpful during the tough times). With her love for tech and her endless creativity, I can't wait to see what else she will build, and hope to work with her again in the future!”</p>
@@ -100,11 +101,13 @@
 	<h4>Practicum by Yandex Apprenticeship</h4>
 		<p>Mar 2021 – Present
 <ul>
-	<li>Effectively work in an Agile environment ( 2 weeks Sprints ) with Code Review cycles</li>
-<li>Participate in global, remote pair-programming sessions</li>
-<li>Maintain versioning control with Git to keep a history of all changes and pushed code to GitHub</li>
-<li>Successfully create and merge pull requests on GitHub</li>
-<li>Participate in Team Hackathons and International Code Jams</li>
+	<li class="experience-decription">Awarded scholarship through Women Who Code and Yandex to attend Practicum's Web Developer program</li>
+	<li class="experience-decription">More than 800 hours of instruction and practice in HTML, CSS, JavaScript, JQuery, React, Node.js, Apis, back-end infrastructure, and more</li>
+	<li class="experience-decription">Effectively work in an Agile environment ( 2 weeks Sprints ) with Code Review cycles and hard deadlines for projects aimed at replicating a real-life work environment</li>
+	<li class="experience-decription">Participate in global, remote pair-programming sessions</li>
+	<li class="experience-decription">Maintain versioning control with Git to keep a history of all changes and pushed code to GitHub</li>
+	<li class="experience-decription">Successfully create and merge pull requests on GitHub branches</li>
+	<li class="experience-decription">Participate in Team Hackathons and International Team Code Jams to create an MVP for the brief</li>
 </ul></p>
 
 <hr>
@@ -119,43 +122,41 @@
 	</h4>
 	<p>Aug 2015 – Present
 <ul>
-<li>Educational Technology Lead in building supporting teachers while also representing our school in district-level conversations.</li>
+	<li class="experience-decription">Educational Technology Lead in building supporting teachers while also representing our school in district-level conversations</li>
 
-<li>Provide tier one technical support and trouble shooting for students and staff in a remote/virtual environment, through the use of remote desktop software.</li>
+	<li class="experience-decription">Provide tier one technical support and trouble shooting for students and staff in a remote/virtual environment, through the use of remote desktop software</li>
 
-<li>Work closely with other Subject Matter Experts to develop creative solutions to end user problems and enhance user experience.</li>
+	<li class="experience-decription">Work closely with other Subject Matter Experts to develop creative solutions to end user problems and enhance user experience</li>
 
-<li>Facilitated development of Comprehensive MTSS process which led to 67% of students failing one or more classes receiving formal intervention, this was an increase from the previous year at 20%.</li>
+	<li class="experience-decription">Facilitated development of Comprehensive MTSS process which led to 67% of students failing one or more classes receiving formal intervention, this was an increase from the previous year at 20%</li>
 
-<li>Develop, plan, and instruct remote, hybrid, and in-person courses for students with Developmental Disabilities that will be attending an Inclusive University upon graduation.</li>
+	<li class="experience-decription">Develop, plan, and instruct remote, hybrid, and in-person courses for students with Developmental Disabilities that will be attending an Inclusive University upon graduation</li>
 
-<li>Develop a special education program that led to increasing students with disabilities re-enrollment 96% from a consistent trend of enrollment being below 80%.</li>
+	<li class="experience-decription">Develop a special education program that led to increasing students with disabilities re-enrollment 96% from a consistent trend of enrollment being below 80%</li>
 
-<li>special education supports for increased student access to 9th grade general education curriculums as demonstrated by 26% higher rate of growth on the ACT Explore exam by students with IEPs (2.83) than their non-disabled peers (2.1).</li> 
+	<li class="experience-decription">special education supports for increased student access to 9th grade general education curriculums as demonstrated by 26% higher rate of growth on the ACT Explore exam by students with IEPs (2.83) than their non-disabled peers (2.1)</li> 
 </ul></p>
 
 		
 	</section>
 
 
-	<section class="contact">
+	<section class="contact" id="contact">
 		<h3 class="title">I can't wait to speak with you!</h3>	
 		<p>I'm awesome, you're awesome. Let's be awesome <strong>together!</strong> </p>
 		<hr>
 
 		<form>
 			
-			<a href="#" class="btn">Email me</a>
+			<a href="mailto:tiffanyhall.co@gmail.com" class="btn">Email me</a>
 		</form>
 	</section>
 
 	<footer>
 		<ul>
-			<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-snapchat-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-pinterest-square"></i></a></li>
-			<li><a href="#"><i class="fa fa-github-square""></i></a></li>
+			
+			<li><a href="https://www.linkedin.com/in/tiffany-hall-colorado/"><i class="fa fa-linkedin-square"></i></a></li>
+			<li><a href="https://github.com/tHALL3000"><i class="fa fa-github-square""></i></a></li>
 		</ul>
 		<p> Made by tHALL3000</p>
 	</footer>
