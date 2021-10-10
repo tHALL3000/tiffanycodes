@@ -1,6 +1,7 @@
 
 header{
-	position: absolute;
+	position: sticky;
+	height: 120px;
 	top: 0;
 	left: 0;
 	z-index: 10;
@@ -10,7 +11,17 @@ header{
 	align-items: center;
 	color: #fff;
 	padding: 35px 100px 0;
+	background: rgba(0,0,0,.5);
 }
+
+.header-inner{
+	height: 70px;
+	position: sticky;
+	top: 0; 
+	width: 100%;
+
+}
+
 
 header h2{
 	font-family: 'Quicksand', sans-serif;
@@ -19,13 +30,14 @@ header h2{
 header nav{
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: right;;
 }
 @media screen and (max-width: 775px) {
-  header nav {
-    width: 100%;
+	header nav {
+	width: 100%;
 	justify-content: center;
 
-  }
+	}
 }
 
 header nav li{

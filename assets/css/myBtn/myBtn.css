@@ -14,9 +14,10 @@
     font-size: 18px; 
 }
 @media screen and (max-width: 600px) {
-  #myBtn {
+#myBtn {
     display: hidden;
-  }
+}
+}
 
 #myBtn:hover {
     background-color: #555; 
