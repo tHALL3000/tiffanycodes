@@ -91,7 +91,8 @@ section{
 @media (max-width: 600px){
 
 	section{
-		padding: 30px 5px;
+		padding-top: 30px;
+		padding-left: 30px;
 	}
 
 }
