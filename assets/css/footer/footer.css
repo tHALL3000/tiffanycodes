@@ -11,9 +11,9 @@ footer{
 
 footer ul{
 	display: flex;
-	justify-contents: space-between;
 	margin-bottom: 25px;
 	font-size: 32px;
+	margin-left: auto
 }
 
 footer ul li{
