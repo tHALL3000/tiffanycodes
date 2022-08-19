@@ -31,7 +31,11 @@ html{
 	color:#58525a
 }
 
-ul, nav{
+ul{
+	align-self: flex-start;
+} 
+
+nav{
 	list-style: none;
 	align-self: flex-start;
 }
