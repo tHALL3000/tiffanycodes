@@ -10,6 +10,7 @@
 @import url(./assets/css/cards/cards.css);
 
 
+
 /*-------------
  	General
 -------------*/
@@ -32,6 +33,7 @@ html{
 
 ul, nav{
 	list-style: none;
+	align-self: flex-start;
 }
 
 a{
@@ -61,7 +63,8 @@ hr{
 	height: 2px;
 	background-color: #9600ff;
 	border: 0;
-	margin-bottom: 80px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 @media (max-width: 500px){
 hr{
